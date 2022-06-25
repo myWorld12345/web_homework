@@ -1,0 +1,41 @@
+nav {
+    background: rgb(51,51,51);
+    height: 45px;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 100px;
+    margin-top: 0;
+}
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+    display: inline-block;
+    /* float: left; */
+    position: relative;
+    z-index: 100;
+}
+
+.clearfix {
+    display: block;
+    *zoom: 1;
+}
+
+.menu-link{
+    display: inline-block;
+    padding: 0 33px;
+    height: 44px;
+    line-height: 44px;
+    color: #fff;
+    font-size: 16px;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    background-color: rgb(228,146,39);
+}

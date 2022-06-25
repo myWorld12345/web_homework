@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>未来规划</title>
+     <!-- 链接该页对应的css和导航的css -->
+    <link rel="stylesheet" href="./css/plan.css">
+    <link rel="stylesheet" href="./css/nav.css">
+    <link rel="stylesheet" href="./css/footer.css">
+</head>
+<body>
+    <!-- 页眉 -->
+    <header>
+        <div class="span">欢迎了解小fan的未来规划~</div>
+    </header>
+    
+     <!-- 导航区 -->
+    <nav>
+        <ul class="clearfix">
+            <li>
+                <a class="menu-link" href="./index.html" target="_self">个人主页</a>
+            </li>
+            <li>
+                <a class="menu-link" href="./interest.html" target="_self">兴趣爱好</a>
+            </li>
+            <li>
+                <a class="menu-link" href="./experience.html" target="_self">实践经历</a>
+            </li>
+            <li>
+                <a class="menu-link" href="./plan.html" target="_self">未来规划</a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- 容器1 -->
+    <!-- 容器1采用凝胶布局，不规定左右margin -->
+    <div id="container_1">
+        <div class="inner">
+            <!-- 根据盒子模型对内部元素位置进行调整 -->
+            <div id="cont_1_1">
+                <h1>专业能力</h1>
+                <img src="./img/major_abl.jpg"  id="img_1" alt="专业能力">
+                <p>&nbsp&nbsp&nbsp&nbsp提升自己的学科素养，提升自己的英语能力，多读文献去接触学科前沿，避免固步自封</p>
+            </div>
+            <div id="cont_1_2">
+                <h1>工作能力</h1>
+                <img src="./img/work_abl.jpg"  id="img_1" alt="工作能力">
+                <p>&nbsp&nbsp&nbsp&nbsp提升自己的工作能力，积极面对工作，高效完成工作避免拖拉，可以多多利用碎片时间对工作
+                    进行思考，避免工作到来儿自己受阻无措
+                </p>
+            </div>
+            <div id="cont_1_3">
+                <h1>日常生活</h1>
+                <img src="./img/life_abl.jpg"  id="img_1" alt="日常生活">
+                <p>&nbsp&nbsp&nbsp&nbsp拥抱生活创造快乐，在通过学习提升自己创造最真实的快乐之后，我们也需要片刻的放松。
+                    运动、散步、聊天、旅游……</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- 容器2，添加课表 -->
+    <div id="container_2">
+        <div class="inner2">
+            <h1 class="h1_1">郭璠的大三上课表</h1>
+            <!-- 表格 -->
+            <table>
+                <tr>
+                  <th>Monday</th>
+                  <th>Tuseday</th>
+                  <th>Wednesday</th>
+                  <th>Thursday</th>
+                  <th>Friday</th>
+                </tr>
+                <tr>
+                  <td>取证与维权</td>
+                  <td>形势与政策</td>
+                  <td>移动平台开发</td>
+                  <td>金融风险管理</td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>金融计量学</td>
+                  <td>管理信息系统</td>
+                  <td>Python机器学习</td>
+                  <td>信息检索</td>
+                  <td>移动平台开发</td>
+                </tr>
+                <tr>
+                  <td>有效沟通</td>
+                  <td>大数据分析</td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td>大数据统计</td>
+                  <td>大学生求职</td>
+                  <td></td>
+                  <td></td>
+                </tr>
+                <tr>
+                    <td>金融工程</td>
+                    <td>跨文化审美</td>
+                    <td></td>
+                    <td></td>
+                    <td>Unix与Linux</td>
+                  </tr>
+            </table>
+        </div>
+    </div>
+
+    <!-- 容器3，小问卷调查 -->
+    <div id="container_3">
+        <h1 class="h1_1">小问卷~</h1>
+        <!-- 表单 -->
+        <form action="./index.html" method="post">
+            <!-- 选择你的性别 -->
+            <div class="tableRow">
+                <p> 性别: </p>
+                <p>
+                    <input type="radio" name="beantype" value="1"> 男<br>
+                    <input type="radio" name="beantype" value="2" checked> 
+                    女
+                </p>
+            </div>
+            <!-- 填写专业 -->
+            <div class="tableRow">
+                <p> 专业: </p>
+                <p> <input type="text" name="name" value="" placeholder="大数据管理与应用+金融工程"> </p>
+            </div>
+            <!-- 填写喜欢的朋友的类型 -->
+            <div class="tableRow">
+                <p> 喜欢的朋友类型: </p>
+                <p>
+                    <input type="checkbox" name="extras[]" value="活泼开朗"> 活泼开朗<br>
+                    <input type="checkbox" name="extras[]" value="活泼开朗"> 分享生活<br>
+                    <input type="checkbox" name="extras[]" value="活泼开朗"> 幽默风趣<br>
+                    <input type="checkbox" name="extras[]" value="细心体贴" checked> 细心体贴
+                </p>
+            <!-- 留下你的电话号码 -->
+            <div class="tableRow">
+                <p> 电话: </p>
+                <p> <input type="tel" name="phone" value="" placeholder="310-555-1212"> </p>
+            </div>
+            <!-- 对网站的建议 -->
+            <div class="tableRow">
+                <p> 对该网站的评价: </p>
+                <p>
+                    <textarea name="comments"></textarea>
+                </p>
+            </div>
+            <!-- 按钮 -->
+            <div class="tableRow">
+                <p></p>
+                <p> <input type="submit" value="提交"> </p>
+            </div>
+        </form>
+    </div>
+
+    <footer>
+        <small>
+            &copy; 2022, made by merci<br>
+            WuHan,ZUEL
+        </small>
+    </footer>
+</body>
+</html>

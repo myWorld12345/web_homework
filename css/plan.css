@@ -1,0 +1,145 @@
+body {
+    margin: 0;
+    padding: 0;
+    font: 14px/1 Microsoft YaHei, Helvetica, STHeiti STXihei, Microsoft JhengHei, Tohoma, Arial;
+    color: #333;
+    /* font-family: "Microsoft YaHei"; */
+    font-family: "Microsoft YaHei";
+}
+
+header {
+    height: 130px;
+    background: url(../img/header1.png) repeat-x 0 0;
+
+}
+
+div.span{
+    float: right;
+    color: white;
+    font-size: 30px;
+    margin-top: 60px;
+    margin-right: 40px;
+}
+
+/* 采用凝胶布局 */
+#container_1{
+    margin-top: 20px;
+    margin-bottom: 450px;
+}
+
+h1 {
+    margin-left: 100px;
+}
+
+/* 控制容器1的背景范围 */
+.inner {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+img {
+    width: 300px;
+    height: 200px;
+    margin-left: 10px;
+}
+
+/* 控制容器1中文字的格式 */
+p {
+    font-size: 16px;
+    line-height: 200%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/* 控制容器2的背景范围 */
+.inner2{
+    background-color: #f1efe3;
+    width: 1000px;
+    margin: 10px auto;
+}
+
+#cont_1_1{
+    background-color: #f1efe3;
+    width: 312px;
+    height: 420px;
+    float: left;
+    margin-right: 20px;
+    background-color: #f1efe3;
+    overflow: hidden;
+}
+
+#cont_1_2{
+    background-color: #f1efe3;
+    width: 312px;
+    height: 420px;
+    float: left;
+    margin-top: 0px;
+    margin-right: 20px;
+    margin-left: 0px;
+    box-shadow: none;
+    padding-top: 0px;
+}
+
+#cont_1_3{
+    background-color: #f1efe3;
+    width: 314px;
+    height: 420px;
+    float: right;
+    margin-left: 0px;
+    margin-right: 10px;
+}
+
+#container_2{
+    clear: both;
+}
+
+.h1_1 {
+    padding-left: 10px;
+    padding-top: 30px;
+}
+
+table{
+    margin-left: 100px;
+    padding-bottom: 20px;
+}
+
+td,th{
+    margin: 20px;
+    padding: 20px;
+    font-size: 16px;
+    border: 1px solid black;
+}
+
+#container_3{
+    clear: both;
+    background-color: #f1efe3;
+    margin-left: 130px;
+    margin-right: 130px;
+}
+
+
+form {
+    margin-left: 100px;
+    padding-top: 10px;
+
+}
+
+div.tableRow p {
+	display: table-cell;
+	vertical-align: top;
+	padding: 3px;
+}
+
+.tableRow{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #b0aea5;
+    text-align: center;
+    color: #000000;
+    padding:15px;
+    margin: 10px 0px 10px 0px;
+    font-size: 100%;
+}
